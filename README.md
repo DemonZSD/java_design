@@ -3,4 +3,9 @@
 
 ## builder design model
 
+## proxy design model
+### static proxy design
+### JDK dynamic proxy model
+### cglib dynamic proxy model
+
 
