@@ -1,4 +1,4 @@
-package org.mooc.templatepartten.v2;
+package org.mooc.templatepattern;
 
 public class RedSoyamilk extends Soyamilk {
     @Override

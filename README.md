@@ -1,11 +1,12 @@
 # java design learn code
-## factory design model
+## factory design pattern
 
-## builder design model
+## builder design pattern
 
-## proxy design model
+## proxy design pattern
 ### static proxy design
-### JDK dynamic proxy model
-### cglib dynamic proxy model
+### JDK dynamic proxy pattern
+### cglib dynamic proxy pattern
 
+## template design pattern 
 

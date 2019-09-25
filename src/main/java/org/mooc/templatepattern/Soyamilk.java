@@ -1,4 +1,4 @@
-package org.mooc.templatepartten;
+package org.mooc.templatepattern;
 
 public abstract class Soyamilk {
 
