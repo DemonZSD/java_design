@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.mooc.adapterpattern.class_adapter.Client</OriginalElement>
+  <nodes>
+    <node x="37.25" y="130.0">org.mooc.adapterpattern.class_adapter.Adaptor</node>
+    <node x="169.0" y="0.0">org.mooc.adapterpattern.class_adapter.Target</node>
+    <node x="106.75" y="236.0">org.mooc.adapterpattern.class_adapter.Client</node>
+    <node x="0.0" y="12.0">org.mooc.adapterpattern.class_adapter.Adaptee</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.mooc.adapterpattern.class_adapter.Adaptor" target="org.mooc.adapterpattern.class_adapter.Target">
+      <point x="37.25" y="-28.0" />
+      <point x="149.0" y="105.0" />
+      <point x="206.25" y="105.0" />
+      <point x="-37.25" y="40.0" />
+    </edge>
+    <edge source="org.mooc.adapterpattern.class_adapter.Client" target="org.mooc.adapterpattern.class_adapter.Adaptor">
+      <point x="-44.75" y="-28.0" />
+      <point x="151.5" y="211.0" />
+      <point x="111.75" y="211.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="org.mooc.adapterpattern.class_adapter.Adaptor" target="org.mooc.adapterpattern.class_adapter.Adaptee">
+      <point x="-37.25" y="-28.0" />
+      <point x="0.0" y="28.0" />
+    </edge>
+    <edge source="org.mooc.adapterpattern.class_adapter.Client" target="org.mooc.adapterpattern.class_adapter.Target">
+      <point x="44.75" y="-28.0" />
+      <point x="241.0" y="211.0" />
+      <point x="280.75" y="211.0" />
+      <point x="37.25000000000001" y="40.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="103.0" y="98.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
