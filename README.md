@@ -1,4 +1,7 @@
 # java design learn code
+
+所有资源来源于网络：慕课网、[潘建南博客](https://me.csdn.net/pange1991)
+
 ## factory design pattern
 
 ## builder design pattern
@@ -58,3 +61,13 @@
    
 4. `Client` 实例化 `Adaptee`，然后通过构造 `Adapter` 实例化 `Target`
 
+## Decorator Pattern
+
+装饰模式的用意是在不改变接口的前提下，增强所考虑的类的性能
+
+- Component（抽象构件）：给出一个抽象接口，以规范准备接收附加责任的对象。
+- ConcreteComponent（具体构件）：定义一个将要接收附加责任的类。
+- Decorator（装饰）：持有一个构件(Component)对象的实例，并定义一个与抽象构件接口一致的接口。
+- ConcreteDecorator（具体装饰）：负责给构件对象“贴上”附加的责任
+
+![](./uml/decorator/decorator.png)
