@@ -1,7 +1,7 @@
 package org.mooc.decoratorpattern;
 
 /**
- * 装饰器角色
+ * 装饰器角色: 在不改变接口的前提下，增强类的功能
  *
  * @author by Zhu Shidong
  */

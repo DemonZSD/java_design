@@ -14,6 +14,6 @@ public class ConcreteDecorator extends Decorator {
     public void doSomething() {
         super.doSomething(); // 拥有 ConcreteComponent 的功能
         // 自己的功能
-
+        System.out.println("Do the Concrete Decorator something!");
     }
 }

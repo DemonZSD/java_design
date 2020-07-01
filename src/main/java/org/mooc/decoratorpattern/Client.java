@@ -1,7 +1,7 @@
 package org.mooc.decoratorpattern;
 
 /**
- * TODO
+ * Client class for doing something
  *
  * @author by Zhu Shidong
  */
