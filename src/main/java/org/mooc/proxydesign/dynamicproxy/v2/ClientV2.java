@@ -1,5 +1,7 @@
 package org.mooc.proxydesign.dynamicproxy.v2;
 
+import java.util.Date;
+
 /**
  * TODO
  *
@@ -8,9 +10,8 @@ package org.mooc.proxydesign.dynamicproxy.v2;
 public class ClientV2 {
     public static void main(String[] args) {
         ITeacherDao teacherDao = new TeacherDao();
-        GeneralProxyFactory proxyFactory = new GeneralProxyFactory(teacherDao);
-        ITeacherDao proxy = (ITeacherDao)proxyFactory.getProxyInstance(new LoggerProxy(teacherDao));
-        proxy.teach();
-
+        ITeacherDao proxy = (ITeacherDao)GeneralProxyFactory.getProxyInstance(
+                TeacherDao.class, new LoggerHandler(teacherDao));
+        System.out.println(proxy.teach());
     }
 }

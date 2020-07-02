@@ -6,17 +6,15 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
 /**
- * TODO
- *
+ * GeneralProxyFactory a proxy factory class for creating Proxy target object
+ * such as:
+ * {@code GeneralProxyFactory proxyFactory = new GeneralProxyFactory(teacherDao)}
  * @author by Zhu Shidong
  */
 public class GeneralProxyFactory {
-    private Object target;
-    public GeneralProxyFactory(Object target) {
-        this.target = target;
-    }
-    public Object getProxyInstance(InvocationHandler handler){
-        return Proxy.newProxyInstance(target.getClass().getClassLoader(),
-                target.getClass().getInterfaces(), handler);
+
+    public static Object getProxyInstance(Class target, InvocationHandler handler){
+        return Proxy.newProxyInstance(target.getClassLoader(),
+                target.getInterfaces(), handler);
     }
 }
